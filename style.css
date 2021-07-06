@@ -3,14 +3,16 @@ body{
     margin: 0;
 }
 h1{
-    font-size: 50px;
-    font-style: italic;
+    font-size: 40px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 h2{
     font-size: 30px;
-    font-style: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 p{
+    font-size:15;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: dimgray;
 }
 .orange-color{
@@ -19,15 +21,25 @@ p{
 }
 .flexible-container{
     display: flex;
-    margin-bottom: 150px;
 }
+
+.top-banner{
+    background-image: url(img/Frame\ 59.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .half-width{
     width: 50%;
-    padding-top: 12%;
+    padding-top:7%;
     padding-left: 5%;  
 }
 .half-width img{
-    width: 80%;
+    width: 67%;
+    padding: 53px 80px;
+}
+.top-halp-img{
+    width:100%;
 }
 .link-button{
     text-decoration: none;
@@ -39,9 +51,16 @@ p{
 }
 
 .drem-big{
-    background-image: url(img/dream-bg.png);
+    background-image: url(img/images\ \(1\).jfif);
     background-repeat: no-repeat;
-    background-position: right;
+    background-size: cover;
+}
+.drem-big p{
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #171716;
+    line-height: 21px;
+    padding-bottom: 34px;
 }
 .experience-area{
     background-image: url(img/exp-bg.png);
@@ -73,4 +92,89 @@ footer p {
 .half-width-img{
     width: 50%;
     padding-top:3%
+}
+
+/**recipes**/
+.recipie-top{
+    overflow: hidden;
+    padding: 20px 0px;
+    text-align: center;
+}
+.recipies-item-full{
+    width: 85%;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.recipies{
+    overflow: hidden;
+    padding: 20px 0px;
+    width: 33%;
+    float: left;
+}
+.recipies-all .all-item{
+    width: 300px;
+    height: auto;
+    padding: 10px;
+    box-shadow: 1px 3px 10px #403a3a;
+    border-radius: 26px;
+    text-align: center;
+}
+.recipies-all .all-item h1{
+    font-size:30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.recipies-all .all-item p{
+    font-size:16;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.recipies h1{
+    font-size:40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.recipies p{
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:black;
+}
+
+.recipies-titile-full{
+    overflow: hidden;
+    padding: 20px;
+}
+.recipies-all{
+    width: 80%;
+    margin: 0 auto;
+}
+.recipies-all img{
+ width:300px;
+}
+.Subscribers-sec-full{
+    padding:70px 0px;
+}
+.Subscribers{
+    overflow: hidden;
+    padding: 20px 0px;
+    width:80%;
+    margin:0 auto;
+    box-shadow:1px 3px 10px #252121;
+}
+.Subscribers .all-social{
+    width:30%;
+    float: left;
+    padding: 10px 17px;
+    text-align: center;
+}
+
+.footer-full{
+    padding: 20px 0px;
+    background-color: black;
+}
+.footer-main{
+    overflow: hidden;
+}
+.footer-main .footer{
+    text-align: center;
+    color: #fff;
 }
